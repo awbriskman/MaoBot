@@ -4,8 +4,8 @@ import Card
 class RulesList:
     top_card = Card.Card('A', 'S')
     list_of_rules = {'Uno': True, 'MagicCard': True, 'CloseEnough': False, 'ExcellentWeather': False, 'Mao': True,
-                     'LittleRedBook': False, 'ProperRespect': True, "Names": True, "Taps": True,
-                     "TwinkleTwinkle": False}
+                     'LittleRedBook': False, 'ProperRespect': True, "Names": True, "Taps": True, "GreatLeapForward":
+                     True, "TwinkleTwinkle": False}
     tap_count = 0
 
     def EvaluateRules(self, rule, game, card, player, phrases):
